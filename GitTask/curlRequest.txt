@@ -1,0 +1,7 @@
+curl --location 'https://api.github.com/orgs/ORGNAME/repos?per_page=100&visibility=private&size=%3C100&type=Organization' \
+--header 'Accept: application/vnd.github+json' \
+--header 'Authorization: Bearer XXXXXXXXXXXXXXXXXXXXXXXXXXXXX' \
+--header 'X-GitHub-Api-Version: 2022-11-28' \
+--header 'Cookie: logged_in=no'
+
+Copy above response and save into json file add same path in GitReportGen.java file.
