@@ -5,7 +5,4 @@ public class A {
         public void display(){
             System.out.println("Value of a: "+a);
         }
-    public static void main(String[] args){
-
-    }
 }
