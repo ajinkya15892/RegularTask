@@ -6,6 +6,8 @@ public class B {
     public static void main(String[] args) {
         A a = new A();
         a.display();
-//        System.out.println(a.a);
+      //  a.print();
+
+//        System.out.println(a.a); -->
     }
 }
