@@ -1,7 +1,7 @@
 /*
 Latest
  */
-package com.poortoys.examples;
+package com.regularTask.examples;
 import javax.crypto.Cipher;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.IvParameterSpec;
@@ -69,8 +69,8 @@ public class PasswordDecryptorPBKDF2 {
         command 1 : echo pU2iA8J32g | openssl enc -aes-256-cbc -base64 -e -k test@123 -pbkdf2 -iter 100000
         command 2 : echo U2FsdGVkX1+u95CrkfCDfZr8E1Yr5+u84VTePx2ItWY= | openssl enc -aes256 -base64 -d -k test@123 -pbkdf2 -iter 100000 | sed 's~ ~~g'
          */
-        String encryptionKey = "test@123"; // working
-        String encryptedPassword = "U2FsdGVkX1+u95CrkfCDfZr8E1Yr5+u84VTePx2ItWY="; // working
+        String encryptionKey = "devqa3@pass#enc1"; // working
+        String encryptedPassword = "U2FsdGVkX19v6h5gvtMMXhlbw9IRi/hXIYHWlAfmFOM="; // working
 
         PasswordDecryptorPBKDF2 passDecrypt = new PasswordDecryptorPBKDF2();
         String decryptedPassword = decryptSchemaPassword(encryptionKey, encryptedPassword);

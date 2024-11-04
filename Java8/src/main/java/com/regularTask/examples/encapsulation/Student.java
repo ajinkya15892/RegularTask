@@ -1,4 +1,4 @@
-package com.poortoys.examples.encapsulation;
+package com.regularTask.examples.encapsulation;
 /*
  * Encapsulation is a key principle in object-oriented programming (OOP) that allows us to hide the internal details of a class and provide a public interface for accessing and modifying these details.
  * In encapsulation, the data and the methods that operate on it are bundled together in a single unit, known as a class.

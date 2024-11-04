@@ -1,5 +1,5 @@
-package com.poortoys.examples;
-import com.poortoys.examples.p1.A;
+package com.regularTask.examples;
+import com.regularTask.examples.p1.A;
 
 
 public class B {

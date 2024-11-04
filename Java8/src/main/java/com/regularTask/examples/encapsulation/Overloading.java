@@ -1,8 +1,9 @@
-package com.poortoys.examples.encapsulation;
+package com.regularTask.examples.encapsulation;
 /*
  * Overloading is used to implement multiple methods with the same name.
  * overloading is used to change arguments to different types.
  * Overloading is used to change return types to different types
+ * Overloading is compiled polymorphism
  */
 
 public class Overloading {

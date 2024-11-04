@@ -1,5 +1,5 @@
-package com.poortoys.examples;
-import com.poortoys.examples.encapsulation.Student;
+package com.regularTask.examples;
+import com.regularTask.examples.encapsulation.Student;
 public class AppMain {
 
     public static void main(String[] args) {

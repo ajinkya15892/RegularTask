@@ -1,4 +1,4 @@
-package com.poortoys.examples.inheritance;
+package com.regularTask.examples.inheritance;
 
 
 public class TestInheritance extends Derived {

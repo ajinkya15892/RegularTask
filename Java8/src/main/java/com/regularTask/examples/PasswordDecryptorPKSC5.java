@@ -1,4 +1,4 @@
-package com.poortoys.examples;
+package com.regularTask.examples;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
@@ -63,8 +63,8 @@ public class PasswordDecryptorPKSC5 {
 
 
     public static void main(String[] args) {
-        String encryptionKey = "dev_qa4@#_test1234"; // working
-        String encryptedPassword = "U2FsdGVkX19onIdInb7sqFb+Zu7jJw5lU7pLL8alYCU="; // working
+        String encryptionKey = "devqa3@pass#enc1"; // working
+        String encryptedPassword = "U2FsdGVkX19cmoBFsyP0eNlTMtrIV/g/Ipx5rcLleFY=";
         //openssl command line
         //echo U2FsdGVkX1+u95CrkfCDfZr8E1Yr5+u84VTePx2ItWY= | openssl enc -k test@123 -aes256 -base64 -d | sed 's~ ~~g'
         //echo ${RANDOM_PASS} | openssl enc -k ${ENCRYPTION_KEY} -aes256 -base64 -e
